@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     Rigidbody2D rigidbody2d;
 
     AudioSource projectileAudio;

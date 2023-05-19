@@ -49,7 +49,7 @@ public class RubyController : MonoBehaviour
     float horizontal;
     float vertical;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -66,7 +66,7 @@ public class RubyController : MonoBehaviour
         characterAudio.PlayOneShot(clip);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (!gameOverState)
