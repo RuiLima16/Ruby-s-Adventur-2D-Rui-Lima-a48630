@@ -10,7 +10,7 @@ public class Quests : MonoBehaviour
     int botQuest_BotsLeft;
     public GameObject botCounter;
 
-    // Start is called before the first frame update
+   
     void Start()
     {
         botQuestBots = GameObject.FindGameObjectsWithTag("Bots");
@@ -32,7 +32,7 @@ public class Quests : MonoBehaviour
 
         if (botQuest_BotsLeft == 0)
         {
-            //Ring quest noise and show quest badge
+            
             QuestOneShot(questAudioClip);
             UpdateBotCounter("Quest Complete");
         }

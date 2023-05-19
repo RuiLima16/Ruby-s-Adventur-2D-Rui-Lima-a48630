@@ -9,7 +9,7 @@ public class Start_Scene_Buttons : MonoBehaviour
 
     public Button m_btnStartNew, m_btnExit;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
 
